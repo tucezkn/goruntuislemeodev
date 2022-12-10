@@ -1,7 +1,7 @@
-dosya = open("data2.txt", "w")
-dosya.write("Name : gökçe\nSurname : sayın\nGender : female\nUsername : Wtfgokce\nJob : oyuncu")
+dosya = open("data", "r")
+dosya.write("Name : gökçe\nSurname : sayın\nGender : female\nUsername : Wtfgokce\Job : oyunncu")
 dosya.close()
-dosya = open("data2.txt", "r")
+dosya = open("data", "r")
 string=dosya.read()
 s_string=string.split("\n")
 Dictionary={ 
